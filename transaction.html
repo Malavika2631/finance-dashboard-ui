@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Finlytics</title>
+    <link rel="stylesheet" href="./transaction.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <div class="navbar">
+          <div class="logo">
+            <h2></h2>
+          </div>
+          <div class="heading">
+            <h2>FINLYTICS</h2>
+          </div>
+          <div class="nav">
+            <div class="search">
+              <input
+                class="searchbox"
+                text="serach"
+                placeholder="Search Transactions.."
+              />
+              <i class="fa-brands fa-sistrix"></i>
+            </div>
+            <div class="profile">
+              <i class="fa-solid fa-circle-user"></i>
+              <a href="./profile.html"> My Profile</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <aside>
+        <input type="checkbox" id="menu-toggle">
+
+<label for="menu-toggle" class="menu-btn">☰</label>
+        <div class="sidebar">
+          <ul>
+            <li><i class="fa-solid fa-sliders"></i></li>
+            <li><i class="fa-solid fa-file-invoice"></i></li>
+            <li><i class="fa-solid fa-chart-pie"></i></li>
+            <li><i class="fa-regular fa-user"></i></li>
+          </ul>
+          <ul>
+            <li><a href="./dashboard.html">Dashboard</a></li>
+            <li><a href="./transaction.html">Transaction</a></li>
+            <li><a href="./analytics.html">Analytics</a></li>
+            <li><a href="./profile.html">Profile</a></li>
+          </ul>
+        </div>
+      </aside>
+      <main>
+        <div class="main">
+          <div class="heading2">
+            <h2>TRANSACTION HISTORY</h2>
+            <div class="flex">
+              <button><i class="fa-regular fa-calendar"></i>Choose Date</button>
+              
+              <button>
+                <i class="fa-solid fa-arrow-down-wide-short"></i>Filter
+              </button>
+            </div>
+          </div>
+          <table class="table">
+            <tr>
+              <th>Transactions</th>
+              <th>Amount</th>
+              <th>Date </th>
+              <th>Category</th>
+              <th>Account</th>
+            </tr>
+            <tr>
+              <td>Mr. X</td>
+              <td>- &#8377 4,000</td>
+              <td>Aug 10</td>
+              <td>Rent</td>
+              <td>SBI</td>
+            </tr>
+            <tr>
+              <td>Mr. Y</td>
+              <td> &#8377 14,000</td>
+              <td>Aug 18</td>
+              <td>Interest</td>
+              <td>IOB</td>
+            </tr>
+            <tr>
+              <td>Mrs. JAY</td>
+              <td>- &#8377 55,000</td>
+              <td>Aug 10</td>
+              <td>Fees</td>
+              <td>BOB</td>
+            </tr>
+            <tr>
+              <td>Mr. Xu</td>
+              <td> &#8377 10,000</td>
+              <td>Sep 05</td>
+              <td>Discount</td>
+              <td>IB</td>
+            </tr>
+            <tr>
+              <td>Ms. Sam</td>
+              <td>- &#8377 1,000</td>
+              <td>Oct 30</td>
+              <td>Groceries</td>
+              <td>SBI</td>
+            </tr>
+            <tr>
+              <td>Ms. Anu</td>
+              <td> &#8377 100</td>
+              <td>Oct 30</td>
+              <td>Discount</td>
+              <td>BOB</td>
+            </tr>
+            <tr>
+              <td>Ms. Che</td>
+              <td>- &#8377 200</td>
+              <td>Oct 30</td>
+              <td>Groceries</td>
+              <td>BOB</td>
+            </tr>
+            <tr>
+              <td>Ms. Fin</td>
+              <td> &#8377 400</td>
+              <td>Oct 30</td>
+              <td>Commission</td>
+              <td>SBI</td>
+            </tr>
+            <tr>
+              <td>Mr. Kin</td>
+              <td>- &#8377 4,000</td>
+              <td>Oct 31</td>
+              <td>Sales</td>
+              <td>SBI</td>
+            </tr>
+            <tr>
+              <td>Mr. Joe</td>
+              <td> &#8377 1,000</td>
+              <td>Oct 31</td>
+              <td>Purchase</td>
+              <td>IOB</td>
+            </tr>
+            <tr>
+              <td>Mr. Ram</td>
+              <td>- &#8377 900</td>
+              <td>Nov 03</td>
+              <td>Groceries</td>
+              <td>BOB</td>
+            </tr>
+            <tr>
+              <td>Ms. Mini</td>
+              <td> &#8377 800</td>
+              <td>Nov 05</td>
+              <td>Accessories</td>
+              <td>IOB</td>
+            </tr>
+            <tr>
+              <td>Ms. Pam</td>
+              <td>- &#8377 12,000</td>
+              <td>Nov 09</td>
+              <td>Travel</td>
+              <td>IB</td>
+            </tr>
+            <tr>
+              <td>Ms. Shin</td>
+              <td> &#8377 22,000</td>
+              <td>Nov 10</td>
+              <td>Rent</td>
+              <td>IB</td>
+            </tr>
+            <tr>
+              <td>Mr. Tod </td>
+              <td>- &#8377 32,000</td>
+              <td>Nov 11</td>
+              <td>Services</td>
+              <td>BOB</td>
+            </tr>
+
+          </table>
+          <div class="flex1">
+            <strong><button> < </button></strong>
+            <strong>Showing 1 - 15 of 50 Transactions </strong>
+            <strong><button>></button></strong>
+          </div>
+        </div>
+      </main>
+      <footer>
+        <div class="footer">
+          <div class="useful">
+            <h2>LINKS</h2>
+            <div class="usefull">
+              <ul>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Payment Methods</a></li>
+                <li><a href="#">Returns & Exchanges</a></li>
+                <li><a href="#">Contact Us</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="about">
+            <h2>ABOUT</h2>
+            <p>
+              Finlytics is a modern financial dashboard designed to help users
+              track, analyze, and manage their finances with ease. It provides a
+              clear overview of income, expenses, and savings through intuitive
+              visualizations and a user-friendly interface. With features like
+              expense tracking, real-time analytics, and insightful reports,
+              Finlytics empowers users to make smarter financial decisions and
+              stay in control of their money.
+            </p>
+          </div>
+          <div class="news">
+            <h3>Subscribe to our Newsletter</h3>
+            <br /><br />
+            <div class="form">
+              <input type="text" placeholder="Email" class="text" /> <br />
+              <br />
+              <button>Get a free quote</button>
+            </div>
+          </div>
+          <div class="social">
+            <h2>SOCIAL MEDIA</h2><br>
+            <button><i class="fa-brands fa-facebook-f"></i></button>
+            <button><i class="fa-brands fa-x-twitter"></i></button><button><i class="fa-brands fa-instagram"></i></button><button><i class="fa-brands fa-whatsapp"></i></button>
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
