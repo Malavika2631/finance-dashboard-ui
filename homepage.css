@@ -1,9 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Eczar:wght@400..800&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Roboto+Slab:wght@100..900&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-@import url("https://fonts.googleapis.com/css2?family=Eczar:wght@400..800&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Roboto+Slab:wght@100..900&display=swap");
 body {
   display: flex;
   font-family: "Eczar", serif;
@@ -22,7 +22,7 @@ body::before {
   width: 80vw;
   height: 80vw;
 
-  background-image: url("../Images/ChatGPT\ Image\ Mar\ 28\,\ 2026\,\ 12_03_16\ PM.png");
+  background-image: url("../images/logo.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -34,6 +34,7 @@ body::before {
   width: 100%;
   height: 100%;
   background-color: rgb(2, 2, 44);
+  overflow-x: hidden;
   /* display: flex; */
 }
 .logo {
@@ -262,28 +263,28 @@ body::before {
   border-radius: 2rem;
 }
 .d1 {
-  background-image: url(../Images/dashbrd1.png);
+  background-image: url(../images/dashbrd1.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
 .d2 {
   background-repeat: no-repeat;
-  background-image: url(../Images/dashbrd2.png);
+  background-image: url(../images/dashbrd2.png);
   background-size: 100% 100%;
 }
 .d3 {
   background-repeat: no-repeat;
-  background-image: url(../Images/dashbrd3.png);
+  background-image: url(../images/dashbrd3.png);
   background-size: 100% 100%;
 }
 .d4 {
   background-repeat: no-repeat;
-  background-image: url(../Images/still-3b562f5bc5225937a4ba3ee27fbfb7b3.webp);
+  background-image: url(../images/still-3b562f5bc5225937a4ba3ee27fbfb7b3.webp);
   background-size: 100% 100%;
 }
 .footer {
   width: 100%;
-  height: 30rem;
+  height: auto;
   background-color: black;
   margin-top: 10%;
   display: grid;
@@ -317,12 +318,12 @@ body::before {
 }
 .form .text {
   width: 100%;
-  max-width: 650px;
+  max-width: 100%; max-width: 400px;
   height: 3rem;
   font-size: 2rem;
 }
 .form button {
-  width: 350px;
+  width: 100%; max-width: 250px;
   height: 3rem;
   color: black;
   text-align: center;
@@ -353,6 +354,11 @@ body::before {
 .about p {
   margin-top: 2rem;
   text-align: justify;
+}
+
+img, video {
+  max-width: 100%;
+  height: auto;
 }
 
 @media (max-width: 575.98px) {
@@ -393,7 +399,7 @@ body::before {
   .features1, .features2{
     /* width: 20%; */
     width: 100%;
-  max-width: 350px;
+  max-width: 100%; max-width: 250px;
   max-height: 250px;
   }
 
@@ -484,7 +490,7 @@ body::before {
 
   .dashboardss1 {
     width: 90%;          
-    max-width: 350px;    
+    max-width: 100%; max-width: 250px;    
     height: 250px;       
     background-size: 100% 100%;
     background-position: center;
@@ -722,7 +728,7 @@ body::before {
 
   .dashboardss1 {
     width: 22%;
-    max-width: 350px;
+    max-width: 100%; max-width: 250px;
     height: 260px; /* reduced from 600px */
     background-size: cover;
     background-position: center;
@@ -751,3 +757,16 @@ body::before {
   }
 
 }
+
+/* ===== GLOBAL DEPLOYMENT FIXES ===== */
+body { overflow-x: hidden; }
+.container { width: 100% !important; max-width: 100%; overflow-x: hidden; }
+.navbar { background-color: rgb(2, 2, 44); z-index: 100; }
+.footer { height: auto !important; width: 100% !important; overflow-x: hidden; }
+.form .text { width: 100% !important; max-width: 35rem; }
+.form button { width: 100% !important; max-width: 22rem; margin-left: 0 !important; }
+table { overflow-x: auto; display: block; }
+.card { max-width: 100% !important; }
+.analytics { width: 90% !important; }
+.progress-box { height: auto !important; width: 90% !important; }
+.insights { height: auto !important; }
