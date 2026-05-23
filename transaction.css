@@ -11,7 +11,7 @@ body {
   background-color: rgb(2, 2, 44);
 }
 html {
-  font-size: 50%;
+  font-size: 43%;
 }
 body::before {
   content: "";
@@ -21,7 +21,7 @@ body::before {
   transform: translate(-50%, -50%);
   width: 1650px;
   height: 1650px;
-  background-image: url("../images/logo.png");
+  background-image: url("images/logo.png.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   opacity: 0.2;
@@ -693,7 +693,7 @@ strong {
 
 @media (min-width: 1400px) {
 
-  html { font-size: 50%; }
+  html { font-size: 43%; }
 
   .flex {
     width: 60%;

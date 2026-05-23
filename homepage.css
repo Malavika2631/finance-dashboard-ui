@@ -10,7 +10,7 @@ body {
   color: bisque;
 }
 html {
-  font-size: 50%;
+  font-size: 43%;
 }
 body::before {
   content: "";
@@ -22,7 +22,7 @@ body::before {
   width: 80vw;
   height: 80vw;
 
-  background-image: url("../images/logo.png");
+  background-image: url("images/logo.png.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -263,23 +263,23 @@ body::before {
   border-radius: 2rem;
 }
 .d1 {
-  background-image: url(../images/dashbrd1.png);
+  background-image: url(images/dashbrd1.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
 .d2 {
   background-repeat: no-repeat;
-  background-image: url(../images/dashbrd2.png);
+  background-image: url(images/dashbrd2.png);
   background-size: 100% 100%;
 }
 .d3 {
   background-repeat: no-repeat;
-  background-image: url(../images/dashbrd3.png);
+  background-image: url(images/dashbrd3.png);
   background-size: 100% 100%;
 }
 .d4 {
   background-repeat: no-repeat;
-  background-image: url(../images/still-3b562f5bc5225937a4ba3ee27fbfb7b3.webp);
+  background-image: url(images/still-3b562f5bc5225937a4ba3ee27fbfb7b3.webp);
   background-size: 100% 100%;
 }
 .footer {
@@ -638,7 +638,7 @@ img, video {
 @media (min-width: 1200px) and (max-width: 1399.98px) {
 
   html {
-    font-size: 50%;
+    font-size: 43%;
   }
 
   .features {

@@ -10,7 +10,7 @@ body {
   color: bisque;
 }
 html {
-  font-size: 50%;
+  font-size: 43%;
 }
 body::before {
   content: "";
@@ -20,7 +20,7 @@ body::before {
   transform: translate(-50%, -50%);
   width: 1650px;
   height: 1650px;
-  background-image: url("../images/logo.png");
+  background-image: url("images/logo.png.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   opacity: 0.2;
@@ -674,7 +674,7 @@ body::before {
 @media (min-width: 1200px) and (max-width: 1399.98px) {
 
   html { 
-    font-size: 50%; 
+    font-size: 43%; 
   }
 
   .profile-box {
