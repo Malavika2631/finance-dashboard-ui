@@ -10,7 +10,7 @@ body {
   color: bisque;
 }
 html {
-  font-size: 62.5%;
+  font-size: 50%;
 }
 body::before {
   content: "";
@@ -846,3 +846,38 @@ table { overflow-x: auto; display: block; }
 .analytics { width: 90% !important; }
 .progress-box { height: auto !important; width: 90% !important; }
 .insights { height: auto !important; }
+
+/* ===== SIDEBAR + NAVBAR + OVERFLOW FIX ===== */
+.navbar {
+  z-index: 999 !important;
+  width: 100% !important;
+  overflow: hidden !important;
+  flex-wrap: wrap !important;
+}
+.sidebar {
+  z-index: 998 !important;
+  top: 0 !important;
+  height: 100vh !important;
+  overflow-y: auto !important;
+}
+#menu-toggle { display: none; }
+.menu-btn {
+  cursor: pointer;
+  font-size: 3rem;
+  color: bisque;
+  background: transparent;
+  border: none;
+  z-index: 1000;
+  position: relative;
+}
+main {
+  overflow-x: hidden !important;
+  width: 100% !important;
+}
+.nav {
+  margin-left: auto !important;
+  flex-wrap: wrap !important;
+}
+.heading h2 {
+  font-size: 3.5rem !important;
+}
