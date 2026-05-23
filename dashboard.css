@@ -10,7 +10,7 @@ body {
   color: bisque;
 }
 html {
-  font-size: 43%;
+  font-size: 32%;
 }
 body::before {
   content: "";
@@ -856,7 +856,7 @@ table td {
 @media (min-width: 1200px) and (max-width: 1399.98px) {
 
   html { 
-    font-size: 43%; 
+    font-size: 32%; 
   }
 
   .container{

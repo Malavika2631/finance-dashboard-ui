@@ -11,7 +11,7 @@ body {
   background-color: rgb(2, 2, 44);
 }
 html {
-  font-size: 43%;
+  font-size: 32%;
 }
 body::before {
   content: "";
@@ -700,7 +700,7 @@ body::before {
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
 
-  html { font-size: 43%; 
+  html { font-size: 32%; 
   }
 
   main{

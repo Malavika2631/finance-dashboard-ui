@@ -10,7 +10,7 @@ body {
   color: bisque;
 }
 html {
-  font-size: 43%;
+  font-size: 32%;
 }
 body::before {
   content: "";
@@ -462,7 +462,7 @@ img, video {
 @media (min-width: 576px) and (max-width: 767.98px) {
 
   html {
-    font-size: 35%;
+    font-size: 32%;
   }
 
   .features {
@@ -638,7 +638,7 @@ img, video {
 @media (min-width: 1200px) and (max-width: 1399.98px) {
 
   html {
-    font-size: 43%;
+    font-size: 32%;
   }
 
   .features {
@@ -805,3 +805,13 @@ main {
 .heading h2 {
   font-size: 3.5rem !important;
 }
+
+/* ===== HERO TEXT SIZE FIX ===== */
+.content h2 { font-size: 4rem !important; }
+.content h3 { font-size: 3rem !important; }
+.content h4 { font-size: 2.5rem !important; width: 80% !important; }
+.heading h2 { font-size: 2.8rem !important; }
+.dashboard a, .home a { font-size: 2rem !important; }
+.link a { font-size: 1.8rem !important; }
+.title { font-size: 2rem !important; }
+.dashboards p { font-size: 2.5rem !important; }

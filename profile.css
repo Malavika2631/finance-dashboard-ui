@@ -10,7 +10,7 @@ body {
   color: bisque;
 }
 html {
-  font-size: 43%;
+  font-size: 32%;
 }
 body::before {
   content: "";
@@ -291,7 +291,7 @@ body::before {
 @media (max-width: 575.98px) {
 
   html { 
-    font-size: 35%; 
+    font-size: 32%; 
     width: 100%;
     max-width: max-content;
   }
@@ -674,7 +674,7 @@ body::before {
 @media (min-width: 1200px) and (max-width: 1399.98px) {
 
   html { 
-    font-size: 43%; 
+    font-size: 32%; 
   }
 
   .profile-box {
